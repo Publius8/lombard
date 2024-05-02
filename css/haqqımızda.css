@@ -152,6 +152,8 @@ line-height: normal;
     text-align: center;
     height: 50px;
     margin-right: 8%;
+    margin-top: 5px;
+    width: fit-content;
 }
 .nav {
     width: 100%;
@@ -232,6 +234,13 @@ line-height: normal;
     border-radius: 10px;
     border: 1px solid #000;
     background: #FFF; 
+    transition: 0.6s;
+}
+.about_button:hover{
+    transition: 0.6s;
+    -webkit-box-shadow: 0px 0px 17px 3px rgba(24,114,50,1);
+-moz-box-shadow: 0px 0px 17px 3px rgba(24,114,50,1);
+box-shadow: 0px 0px 17px 3px rgba(24,114,50,1);
 }
 .icons_word_all {
     display: flex;
@@ -420,37 +429,43 @@ line-height: normal;
     }
     .icons_words_box {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         margin: 0;
         padding: 0;
     }
     .icons_words_box img {
-        margin-right: 10px;
+        /* margin-right: 10px; */
     }
     .icons_words_box_thrid {
         display: flex;
-        flex-direction: row;
-        margin: 15px;
+        flex-direction: column;
+        width: 100%;
+        /* margin: 15px; */
+        margin-top: -5px !important;
     }
     .icons_words_box_second {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        width: 100%;
         margin: 0;
+        padding: 0;
+        margin-top: -100px !important;
     }
     .icons_word_all {
         width: auto;
         display: flex;
         flex-direction: column;
-        margin-top: 30px;
+        margin-top: 10px;
+        /* border: 2px solid red; */
     }
     .icons_word_all span {
-        font-size: 10px;
-        margin-right: 15px;
-        margin: 15px;
+        /* font-size: 10px; */
+        /* margin-right: 15px; */
+        /* margin: 15px; */
         white-space: nowrap;
     }
     .icons_word_all img {
-        width: 25px;
+        /* width: 25px; */
         height: auto;
         flex-shrink: 0;
     }
@@ -637,7 +652,7 @@ line-height: normal;
   }
   .footer {
     margin-top: 50px;
-    width: auto;
+    width: 99%;
   }
     .nav2  {
         width: auto;

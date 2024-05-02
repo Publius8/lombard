@@ -1,0 +1,11 @@
+{
+    "calc":
+    [
+        {"content": "375", "value": 41.0},
+        {"content": "585", "value": 64.0},
+        {"content": "750", "value": 82.0},
+        {"content": "875", "value": 96.0},
+        {"content": "916", "value": 100.0},
+        {"content": "999", "value": 110.0}
+    ]
+}

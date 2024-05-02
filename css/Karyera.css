@@ -1,3 +1,6 @@
+input::placeholder {
+    color: grey;
+}
 * {
     margin: 0;
     padding: 0;
@@ -137,6 +140,8 @@ ul li a {
     text-align: center;
     height: 50px;
     margin-right: 8%;
+    margin-top: 5px;
+    width: fit-content;
 }
 .nav {
     width: 100%;
@@ -213,6 +218,16 @@ ul li a {
     border-radius: 5px;
     border: 1px solid #187232;
     background: #187232;
+    cursor: pointer;
+}
+.instruction {
+    color: #187232;;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 .buttons_approximately .first {
     margin-right: 20px;
@@ -264,6 +279,14 @@ ul li a {
     border: 1px solid #000;
     background: #FFF;
     margin-top: 30px;
+    transition: 0.6s;
+    padding: 0 20px;
+}
+.formas_settings input:hover {
+    transition: 0.6s;
+    -webkit-box-shadow: 0px 0px 17px 3px rgba(24,114,50,1);
+-moz-box-shadow: 0px 0px 17px 3px rgba(24,114,50,1);
+box-shadow: 0px 0px 17px 3px rgba(24,114,50,1);
 }
 .word_forms {
     display: flex;
@@ -698,7 +721,7 @@ ul li a {
   }
   .footer {
     margin-top: 50px;
-    width: auto;
+    width: 99%;
   }
     .nav2  {
         width: auto;
